@@ -8,10 +8,10 @@ body {
 
 #canvas {
   /* for shits right now */
-  background: darkcyan;
+  background: black;
   position: absolute;
   width: 700px;
-  height: 700px;
+  height: 650px;
   left: 50%;
   top: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);

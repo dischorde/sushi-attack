@@ -1,0 +1,17 @@
+body {
+  background: black;
+}
+
+#canvas {
+  /* for shits right now */
+  background: darkcyan;
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  cursor: none;
+}

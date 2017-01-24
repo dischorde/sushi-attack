@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant|Vampiro+One');
+
 body {
   background: black;
+  color: white;
+  font-family: 'Assistant', Helvetica, sans-serif;
 }
 
 #canvas {
@@ -28,4 +32,21 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+h1 {
+  font-family: 'Vampiro One', cursive;
+  font-size: 55px;
+  margin: 10px;
+}
+
+h3 {
+  color: lime;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+h5 {
+  color: yellow;
+  font-size: 18px;
 }

@@ -18,11 +18,11 @@ Sushi Attack! is a game based off of [Ice Cream Machine](http://www.addictinggam
 
 This app will consist of a single screen. On opening, there will be an entry/splash page that simply has the title, click to play and a hamburger icon on the top right. The hamburger will pull out a sidebar That has a description of how to play the game, what different sushis mean generally, and links to my github and linked in. Clicking play will reveal the canvas and start the game. At the bottom will be the "conveyor belt", from whence sushi will start floating upward from random positions along the x-axis. The goal is to dodge these sushi with the mouse, while grabbing powerups and special sushi you want. The main character sticks to the cursor.
 
-![](/wireframes/Entry.png)
+![](/docs/wireframes/Entry.png)
 
-![](/wireframes/Main-Game.png)
+![](/docs/wireframes/Main-Game.png)
 
-![](/wireframes/Sidebar.png)
+![](/docs/wireframes/Sidebar.png)
 
 ## Architecture and Technologies
 

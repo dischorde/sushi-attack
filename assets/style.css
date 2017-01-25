@@ -1,33 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=Assistant|Vampiro+One');
 
 body {
-  background: black;
+  background: #a3b5c8;
+  /*background: #494541;*/
   color: white;
   font-family: 'Assistant', Helvetica, sans-serif;
 }
 
 #canvas {
-  /* for shits right now */
-  background: black;
-  position: absolute;
-  width: 700px;
-  height: 650px;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  cursor: none;
+  z-index: -1;
+  background: url('./images/sushi-backdrop.png');
+  /*cursor: none;*/
 }
 
 .hidden {
   display: none;
+  visibility: hidden;
+}
+
+.game-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 5;
 }
 
 #intro {
   color: white;
   margin: 0 auto;
-  height: 650px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,17 +37,26 @@ body {
 
 h1 {
   font-family: 'Vampiro One', cursive;
-  font-size: 55px;
+  font-size: 80px;
   margin: 10px;
+  cursor: pointer;
 }
 
+h2 {
+  font-family: 'Vampiro One', cursive;
+  font-size: 60px;
+  margin: 40px;
+}
+
+
 h3 {
-  color: lime;
-  font-size: 22px;
+  color: #494541;
+  font-size: 36px;
   margin-bottom: 8px;
+  cursor: point
 }
 
 h5 {
-  color: yellow;
-  font-size: 18px;
+  color: #494541;
+  font-size: 22px;
 }

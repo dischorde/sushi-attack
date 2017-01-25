@@ -4,12 +4,27 @@ body {
   background: #a3b5c8;
   color: white;
   font-family: 'Assistant', Helvetica, sans-serif;
+  height: 100vh;
 }
 
 #canvas {
   z-index: -1;
   background: url('./images/sushi-backdrop.png');
+  background-size: cover;
   /*cursor: none;*/
+}
+
+.canvas-wrapper {
+  height: 100vh;
+  object-fit: contain;
+}
+
+canvas {
+  max-width: 750px;
+  max-height: 750px;
+  min-width: 400px;
+  min-height: 400px;
+  height: 80vh;
 }
 
 .hidden {
@@ -43,8 +58,8 @@ h1 {
 
 h2 {
   font-family: 'Vampiro One', cursive;
-  font-size: 60px;
-  margin: 40px;
+  font-size: 52px;
+  margin: 1.5% auto 2% auto;
 }
 
 

@@ -7,6 +7,16 @@ body {
   height: 100vh;
 }
 
+.sushi-attack {
+  display: flex;
+  align-items: baseline;
+}
+
+.sushi-attack img {
+  height: 60px;
+  padding-right: 5px;
+}
+
 #canvas {
   z-index: -1;
   background: url('./images/sushi-backdrop.png');

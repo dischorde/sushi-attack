@@ -30,6 +30,7 @@ canvas {
 .hidden {
   display: none;
   visibility: hidden;
+  height: 0;
 }
 
 .game-wrapper {
@@ -40,13 +41,59 @@ canvas {
 }
 
 #intro {
+  position: absolute;
   color: white;
   margin: 0 auto;
-  height: 700px;
+  width: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 2.5%;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  width: 25%;
+  justify-content: flex-start;
+  display: flex;
+  padding-left: 3%;
+  align-items: baseline;
+  box-sizing: border-box;
+}
+
+.buttons img {
+  padding: 0 10%;
+}
+
+.hamburger {
+  width: 25%;
+  justify-content: flex-end;
+  display: flex;
+  padding-right: 3%;
+  box-sizing: border-box;
+  align-items: baseline;
+}
+
+#intro-header {
+  display: flex;
+  margin: 2.5%;
+  justify-content: flex-end;
+  margin-right: 3%
 }
 
 h1 {
@@ -59,7 +106,6 @@ h1 {
 h2 {
   font-family: 'Vampiro One', cursive;
   font-size: 52px;
-  margin: 2.5%;
 }
 
 

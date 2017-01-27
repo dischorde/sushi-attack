@@ -4,7 +4,8 @@ body {
   background: #a3b5c8;
   color: white;
   font-family: 'Assistant', Helvetica, sans-serif;
-  /*height: 100vh;*/
+  height: 100vh;
+  overflow: hidden;
 }
 
 .sushi-attack {
@@ -155,6 +156,7 @@ h5 {
   box-sizing: border-box;
   padding: 30px;
   font-size: 13px;
+  overflow: scroll;
 }
 
 #info img {
@@ -194,7 +196,8 @@ li {
 .my-links {
   display: flex;
   justify-content: center;
-  margin: 10px auto;
+  margin: 6% auto 2% auto;
+  height: 30px;
 }
 
 .my-links:after {
@@ -206,5 +209,5 @@ li {
 }
 
 .freepik-url {
-  margin: 0 auto;
+  margin: 30px auto 2% auto;
 }

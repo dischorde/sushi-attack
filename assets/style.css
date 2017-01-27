@@ -4,7 +4,7 @@ body {
   background: #a3b5c8;
   color: white;
   font-family: 'Assistant', Helvetica, sans-serif;
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 .sushi-attack {
@@ -127,15 +127,17 @@ h3 {
 }
 
 h4 {
-  font-size: 30px;
+  color: #494541;
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 20px;
   font-family: 'Vampiro One', cursive;
   text-align: center;
 }
 
-h5 {
-  color: #494541;
-  font-size: 22px;
-}
+
 
 #info {
   position: absolute;
@@ -143,7 +145,7 @@ h5 {
   height: 100vh;
   width: 25%;
   background-color: #281f20;
-  right: -500px;
+  right: -25%;
   display: flex;
   flex-direction: column;
   transition: 0.4s;
@@ -152,32 +154,57 @@ h5 {
   overflow-wrap: break-word;
   box-sizing: border-box;
   padding: 30px;
+  font-size: 13px;
 }
 
 #info img {
   height: 25px;
-  margin: 2px;
+  margin: 4px;
+}
+
+#info span {
+  text-align: justify;
+  margin: 12px 0;
+  font-size: 16px;
 }
 
 p {
-  margin: 20px auto;
+  margin: 20px auto 0;
+  font-size: 16px;
 }
 
-.list {
+.ul {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 14px;
 }
 
-.list span {
-  overflow-wrap: break-word;
-  max-width: 70%;
-  padding: 0 15px;
-}
-
-.list-img {
+li {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+}
+
+.tiny {
+  font-size: 9px;
+  text-decoration: underline;
+  color: white;
+}
+
+.my-links {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+.my-links:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.freepik-url {
+  margin: 0 auto;
 }

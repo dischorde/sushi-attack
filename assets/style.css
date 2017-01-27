@@ -13,7 +13,7 @@ body {
 }
 
 .sushi-attack img {
-  height: 60px;
+  height: 50px;
   padding-right: 5px;
 }
 
@@ -108,7 +108,7 @@ canvas {
 
 h1 {
   font-family: 'Vampiro One', cursive;
-  font-size: 80px;
+  font-size: 65px;
   margin: 10px;
   cursor: pointer;
 }
@@ -121,12 +121,63 @@ h2 {
 
 h3 {
   color: #494541;
-  font-size: 36px;
+  font-size: 32px;
   margin-bottom: 8px;
   cursor: point
+}
+
+h4 {
+  font-size: 30px;
+  font-family: 'Vampiro One', cursive;
+  text-align: center;
 }
 
 h5 {
   color: #494541;
   font-size: 22px;
+}
+
+#info {
+  position: absolute;
+  top: 0px;
+  height: 100vh;
+  width: 25%;
+  background-color: #281f20;
+  right: -500px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.4s;
+  z-index: 10;
+  text-align: justify;
+  overflow-wrap: break-word;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+#info img {
+  height: 25px;
+  margin: 2px;
+}
+
+p {
+  margin: 20px auto;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+
+.list span {
+  overflow-wrap: break-word;
+  max-width: 70%;
+  padding: 0 15px;
+}
+
+.list-img {
+  display: flex;
+  justify-content: flex-end;
 }

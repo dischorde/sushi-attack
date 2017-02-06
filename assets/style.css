@@ -138,8 +138,6 @@ h5 {
   text-align: center;
 }
 
-
-
 #info {
   position: absolute;
   top: 0px;
@@ -210,4 +208,41 @@ li {
 
 .freepik-url {
   margin: 30px auto 2% auto;
+}
+
+.hamburger-bars {
+  cursor: pointer;
+}
+
+#bubble {
+  position: relative;
+  background: #281f20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin-right: 15px;
+  border-radius: 3px;
+  transition: 0.4s;
+  top: 0px;
+}
+
+.hide-bubble {
+  top: -5px !important;
+  display: none;
+  visibility: hidden;
+}
+
+#bubble:after {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-left-color: #281f20;
+	border-width: 8px;
+	margin-top: -8px;
 }
